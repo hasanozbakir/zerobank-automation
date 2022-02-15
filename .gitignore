@@ -1,1 +1,3 @@
-/src/test/resources/features/AccountActivityNavigation.feature
+/.idea/
+*.iml
+target

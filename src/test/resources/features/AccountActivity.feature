@@ -1,12 +1,12 @@
 Feature: Account Activity
 
-
+  @wip
   Scenario: Page title
     Given the user is logged in
     When the user accesses the "Account Activity" tab
     Then the page title should be "Zero - Account Activity"
 
-
+  @smoke
   Scenario: Account dropdown default condition
     Given the user is logged in
     When  the user accesses the "Account Activity" tab
